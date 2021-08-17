@@ -14,7 +14,7 @@ jobs:
       - run: echo world
   print_name:
     docker:
-      - image: circleci/node:13.8.0
+      - image: circleci/cimg/base:2020.01
     steps:
       - run: echo $MY_NAME
 # Orchestrate or schedule a set of jobs
